@@ -3,10 +3,10 @@
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
+  border: 1px solid black;
 }
 body{
   display: flex;
-  
 }
 img{
   width: 43vw;
@@ -14,6 +14,8 @@ img{
 .form-container{
   display: flex;
   flex-direction: column;
+  width: 57vw; 
+  background-color: rgb(253, 253, 253);
 }
 .image-credit{
   position:absolute;
@@ -38,8 +40,10 @@ img{
 form{
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  padding: 20px 40px;
+  padding-left: 40px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .form-inputs{
   display: flex;
@@ -57,6 +61,10 @@ form{
   padding-bottom: 15px;
 }
 .form-inputs input{
-  padding: 5px 50px;
-  margin-bottom: 10px;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+}
+.gap{
+  margin-bottom: 20px;
 }
