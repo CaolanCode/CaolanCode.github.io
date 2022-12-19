@@ -3,7 +3,6 @@
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 body{
   display: flex;
@@ -44,6 +43,7 @@ form{
   background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
 }
 .form-inputs{
   display: flex;
@@ -67,4 +67,15 @@ form{
 }
 .gap{
   margin-bottom: 20px;
+}
+.button-container{
+  margin: 30px 40px;
+}
+.button-container button{
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: rgb(53, 114, 53);
+  color: white;
+  margin-bottom: 25px;
 }
