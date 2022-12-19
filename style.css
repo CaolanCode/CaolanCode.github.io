@@ -66,6 +66,9 @@ form{
   border-radius: 5px;
   border: 1px rgb(212, 210, 210) solid;
 }
+.form-inputs input:focus{
+  border: 1px blue solid;
+}
 .gap{
   margin-bottom: 2.2vh;
 }
