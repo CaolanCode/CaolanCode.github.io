@@ -80,3 +80,22 @@ form{
   color: white;
   margin-bottom: 3vh;
 }
+.icon-container{
+  position:absolute;
+  top: 40vh;
+  width: 43vw;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+  'font-size' 200px;
+  color: white;
+}
