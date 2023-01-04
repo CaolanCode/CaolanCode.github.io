@@ -1,6 +1,11 @@
 # Sign-up-form
 
-Create a sign-up form as described in The Odin Project
+Create a sign-up form from an Image on The Odin Project
+
+[View Sign-up Form](https://caolancode.github.io/Signup-Form/)
+
+## Objective
+- Learn CSS Flex
 
 This is The Odin Project image
 
